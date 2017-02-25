@@ -16,3 +16,9 @@ var lis2 = function lis2() {
 }
 
 //绑定connection事件，处理函数为lis1
+eventEmitter.addListener('con' , lis1);
+
+//绑定con事件，处理函数为lis2
+eventEmitter.addListener('con' , lis2);
+
+var ev
